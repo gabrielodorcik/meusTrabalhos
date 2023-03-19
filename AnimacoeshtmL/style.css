@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(100, 110, 81);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball{
+    font-size: 10rem;
+    animation: ball .3s infinite alternate linear;
+    background-image: url(https://multiurso.com.br/wp-content/uploads/2022/09/tamanho-campo-futebol-oficial-fifa-foto-1132x670.jpg);
+    background-size: 200vh  ;
+    background-position: center;
+    
+
+}
+
+@keyframes ball {
+    from {
+        transform: scale(.7);
+    }
+    to {
+        transform: scale(1);
+    }
+    
+}
+
+.football{
+    font-size: 10rem;
+    animation: football .1s infinite alternate linear;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/da/Pats-Eagles-2007-GiletteStadium.jpg);
+    background-size: 100rem;
+    background-position: center;
+    
+}
+
+@keyframes football {
+    from {
+        transform: scale(.7);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.bascketball {
+    font-size: 10rem;
+    animation: bascketball .0s infinite alternate linear;
+    background-image: url(https://pereirabarreto.sp.gov.br/wp-content/uploads/2020/12/Prefeitura-Municipal-esta-finalizando-a-construcao-da-nova-quadra-de-basquete-ao-lado-Ginasio-Municipal-de-Esportes-3.jpg);
+    background-position: center;
+
+}
+
+@keyframes bascketball {
+    from {
+        transform: scale(.7);
+
+    } to {
+        transform: scale(1);
+    }
+    
+}
+
+.eightball {
+    font-size: 10rem;
+    animation: eightball .5s infinite alternate linear;
+    background-image: url(https://carlinbilhares.com.br/wp-content/uploads/2022/06/fascinacao-imbuia-preto-1-600x600.jpeg);
+    background-position: center;
+    background-size: 100rem;
+
+}
+
+@keyframes eightball {
+    from {
+        transform: scale(.7);
+
+    } to {
+        transform: scale(1);
+    }
+    
+}
+
+
