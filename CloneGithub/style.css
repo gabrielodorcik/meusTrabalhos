@@ -1,0 +1,241 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+    background-color: #22272e;
+}
+
+header {
+	background-color: #2d333b;
+	/*color: #fff;*/
+	padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #adbac7;
+}
+
+
+
+.menu{
+    order: 1;
+}
+
+.github{
+    order: 2;
+}
+
+.sininho{
+   order: 3;
+}
+
+nav{
+    background-color: #22272e;
+	color: #fff;
+	padding: 20px;
+    align-items: center;
+
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: #adbac7;
+	text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-content:normal;
+    font-style: normal;
+    
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border-radius: 53%;
+    display: block;
+    border: 2px solid #737f8d;
+    
+}
+.nome{
+    margin-right: 420px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    
+
+}
+
+.nome p {
+    margin-top: 8px;
+}
+
+.perfil h2 {
+    color: #adbac7;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 33px;
+
+}
+.perfil p {
+    color: #737f8d;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+h2 {
+	font-size: 24px;
+	margin: 0 0 10px 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 10px;
+	color: #737f8d;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+li:hover {
+	background-color: #3d4045;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #22272e;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 98.8%;
+    height: 2.5rem; 
+
+}
+
+.readme{
+    
+    padding: 20px;
+   
+
+}
+
+.readmeGabriel {
+    color: #adbac7;
+    border: 2px solid #adbac7;
+    padding: 20px;
+    width: 770px;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #22272e;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.focus{
+    
+    color: #adbac7;
+    border: 0.2px solid #adbac7;
+    padding: 18px;
+    width: 770px;
+    height: 9px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #22272e;
+    font-size: 17px;
+    border-radius: 20px;
+}
+.introduct{
+    display: flex;
+    text-align: left;
+    margin: 0;
+    align-content: center;
+    background-color: #22272e;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+
+
+.introduct{
+    color: #adbac7;
+    font-size: 21px;
+    font-style: normal;
+}
+
+.edit {
+    
+    color: #adbac7;
+    border: 0.3px solid #adbac7;
+    padding: 18px;
+    width: 770px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32373c;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+.edit .p {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.links{
+    font-size: 18px;
+    margin: 8px;
+    color: #adbac7;
+    
+
+   
+}
+
+.replit{
+    margin-block-end: 18px;
+    margin-block-start: 18px;
+}
+
+a {
+    color: #adbac7;
+    text-decoration: none;
+}
